@@ -1,0 +1,35 @@
+{
+  "data_mode": "OLIST_ACTUAL",
+  "valid_orders": 96478,
+  "valid_users": 93358,
+  "gmv": 15419773.750000002,
+  "repeat_rate": 0.03000278497825575,
+  "data_max_purchase_date": "2018-08-29",
+  "latest_month": {
+    "purchase_month": "2018-08",
+    "gmv": 985491.64,
+    "orders": 6351,
+    "users": 6310,
+    "new_users": 6144,
+    "repeat_users": 166,
+    "aov": 155.17109746496615,
+    "orders_per_user": 1.0064976228209193,
+    "identity_gmv": 985491.6400000001,
+    "identity_gap": -1.1641532182693481e-10,
+    "is_complete_month": false
+  },
+  "ab": {
+    "type": "模拟A/B（统计方法演示），不是 Olist 实际实验",
+    "control_n": 46835,
+    "treatment_n": 46523,
+    "control_rate": 0.09937012917689762,
+    "treatment_rate": 0.11850052662124111,
+    "uplift_pp": 0.019130397444343486,
+    "ci95_low": 0.015134605075554641,
+    "ci95_high": 0.02312618981313233,
+    "z_stat": 9.383765603986681,
+    "p_value": 6.365769847133056e-21,
+    "alpha": 0.05,
+    "approx_mde_pp_80_power": 0.005712727828815617
+  }
+}

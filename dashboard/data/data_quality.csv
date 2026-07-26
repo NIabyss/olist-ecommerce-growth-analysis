@@ -1,0 +1,11 @@
+check_name,rows,duplicate_rows,null_primary_key,check_type,failed_rows
+orders,99441.0,0.0,0.0,table,
+customers,99441.0,0.0,0.0,table,
+items,112650.0,0.0,0.0,table,
+payments,103886.0,0.0,0.0,table,
+fact_before_filter,99441.0,0.0,0.0,table,
+orders_without_customer,,,,business,0.0
+delivered_without_item_amount,,,,business,0.0
+delivered_before_purchase,,,,business,0.0
+estimated_before_purchase,,,,business,0.0
+duplicate_order_fact,,,,business,0.0
